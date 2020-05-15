@@ -12,7 +12,7 @@ const Form = () => {
     return(
         <div>
             <form className="col-6 mx-auto">
-                <label>Your Name</label>
+                <label>Your Name: </label>
                 <input type="text" name="name" value={context.name} onChange={onChangeHandler}/>
             </form>
         </div>
